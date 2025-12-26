@@ -76,19 +76,20 @@ export default function Visualization({ merchants }) {
               }}
             />
             <Tooltip content={<CustomTooltip />} />
-            <Bar
-              yAxisId="right"
-              dataKey="chargeback"
-              name="Chargeback"
-              fill="#ef4444"
-              radius={[4, 4, 0, 0]}
-              barSize={40}
-            />
+
             <Bar
               yAxisId="left"
               dataKey="volume"
               name="Volume"
               fill="#3b82f6"
+              radius={[4, 4, 0, 0]}
+              barSize={40}
+            />
+            <Bar
+              yAxisId="right"
+              dataKey="chargeback"
+              name="Chargeback"
+              fill="#ef4444"
               radius={[4, 4, 0, 0]}
               barSize={40}
             />

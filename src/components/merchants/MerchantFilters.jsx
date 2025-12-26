@@ -42,9 +42,7 @@ const MerchantFilters = ({
             onChange={(e) => setStatusFilter(e.target.value)}
             className="w-full px-4 py-2 border  border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
           >
-            <option value="" disabled>
-              All Status
-            </option>
+            <option value="">All Status</option>
             <option value="active">Active</option>
             <option value="paused">Paused</option>
             <option value="blocked">Blocked</option>
@@ -59,9 +57,7 @@ const MerchantFilters = ({
             onChange={(e) => setRiskFilter(e.target.value)}
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
           >
-            <option value="" disabled>
-              All Risk Levels
-            </option>
+            <option value="">All Risk Levels</option>
             <option value="low">Low</option>
             <option value="medium">Medium</option>
             <option value="high">High</option>
@@ -76,9 +72,7 @@ const MerchantFilters = ({
             onChange={(e) => setSortBy(e.target.value)}
             className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
           >
-            <option value="" disabled>
-              Sort by voluem/chargeback
-            </option>
+            <option value="">Sort by voluem/chargeback</option>
 
             <option value="volume_high">Volume (High to Low)</option>
             <option value="volume_low">Volume (Low to High)</option>
